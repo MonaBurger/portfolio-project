@@ -20,8 +20,12 @@
       href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css"
       rel="stylesheet"
     />
+    <meta
+      name="description"
+      content="Mona is a frontend engineer based in Hamburg."
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Frontend developer - Mona Burger</title>
     <script
       src="https://kit.fontawesome.com/ddc3ee268a.js"
       crossorigin="anonymous"
@@ -34,23 +38,23 @@
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <a href="/">
+        <a href="/" title="Homepage">
           <img
             src="images/ySjA-logo.png"
             class="logo d-none d-md-block"
-            alt=""
+            alt="Mona Logo"
           />
           <img
             src="images/logo-small.png"
             class="logo d-block d-md-none"
-            alt=""
+            alt="Mona Logo"
           />
         </a>
         <ul>
-          <li class="active"><a href="/">Home</a></li>
-          <li><a href="/about.html">About</a></li>
-          <li><a href="/work.html">Work</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+          <li class="active"><a href="/" title="Homepage">Home</a></li>
+          <li><a href="/about.html" title="About Mona">About</a></li>
+          <li><a href="/work.html" title="Mona's work">Work</a></li>
+          <li><a href="/contact.html" title="Contact Mona">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -59,14 +63,20 @@
       <h1>Mona Burger</h1>
       <h2 class="mb-5">Frontend developer based in Germany</h2>
       <div>
-        <a href="#" class="btn btn-branding">Contact me</a>
+        <a href="/contact.html" class="btn btn-branding" title="Contact me"
+          >Contact me</a
+        >
       </div>
     </div>
     <p class="text-center m-5">Featured Project to show my best projects</p>
     <div class="container">
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
-          <img src="images/weather.png" class="img-fluid" alt="" />
+          <img
+            src="images/weather.png"
+            class="img-fluid"
+            alt="Weather project preview"
+          />
         </div>
         <div class="col">
           <div class="project-description">
@@ -82,7 +92,7 @@
               is often made from low-fat or fat-free cow's milk. In Iceland, a
               similar product named skyr is made
             </p>
-            <a href="" class="btn btn-branding-outline">Learn more</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
       </div>
@@ -101,16 +111,24 @@
               is often made from low-fat or fat-free cow's milk. In Iceland, a
               similar product named skyr is made
             </p>
-            <a href="" class="btn btn-branding-outline">Learn more</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
         <div class="col d-none d-lg-block">
-          <img src="images/yoga.png" class="img-fluid" alt="" />
+          <img
+            src="images/yoga.png"
+            class="img-fluid"
+            alt="Yoga project preview"
+          />
         </div>
       </div>
       <div class="row">
         <div class="col d-none d-lg-block">
-          <img src="images/yogurt.png" class="img-fluid" alt="" />
+          <img
+            src="images/yogurt.png"
+            class="img-fluid"
+            alt="Yogurt project preview"
+          />
         </div>
         <div class="col">
           <div class="project-description">
@@ -126,7 +144,7 @@
               is often made from low-fat or fat-free cow's milk. In Iceland, a
               similar product named skyr is made
             </p>
-            <a href="" class="btn btn-branding-outline">Learn more</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
       </div>
@@ -135,29 +153,57 @@
           class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
         >
           <div>
-            <h4>Work inquiry</h4>
+            <h3>Work inquiry</h3>
             <p class="text-muted">Let's work together</p>
           </div>
           <div>
-            <a href="" class="btn btn-branding mt-3">Contact me</a>
+            <a
+              href="/contact.html"
+              class="btn btn-branding mt-3"
+              title="Contact Mona"
+              >Contact me</a
+            >
           </div>
         </div>
         <div class="d-flex justify-content-center mb-5">
-          <a href="mailto:mona@software-lab.de" class="email-link">
+          <a
+            href="mailto:mona@software-lab.de"
+            class="email-link"
+            title="Email Mona"
+          >
             mona@software-lab.de
           </a>
         </div>
         <div class="social-links d-flex justify-content-center">
-          <a href="https://www.instagram.com/mona" target="_blank">
+          <a
+            href="https://www.instagram.com/mona"
+            target="_blank"
+            title="Github Profile"
+          >
             <i class="fab fa-instagram"></i>
           </a>
-          <a href="https://github.com/MonaBurger" target="_blank"
+          <a
+            href="https://github.com/MonaBurger"
+            target="_blank"
+            title="Instagram Profile"
             ><i class="fab fa-github"></i
           ></a>
-          <a href="https://www.twitter.com/mona" target="_blank"
+          <a
+            href="https://www.twitter.com/mona"
+            target="_blank"
+            title="Twitter Profile"
             ><i class="fab fa-twitter"></i
           ></a>
         </div>
+        <p class="text-center mt-5">
+          ✌️ This project was coded by Mona Burger and is
+          <a
+            href="https://github.com/MonaBurger/portfolio-project"
+            target="_blank"
+          >
+            open-sourced.
+          </a>
+        </p>
       </footer>
     </div>
   </body>

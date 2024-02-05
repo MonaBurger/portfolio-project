@@ -20,14 +20,42 @@
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@500;700&display=swap"
       rel="stylesheet"
     />
+    <meta
+      name="description"
+      content="Contact Mona. Mona is a frontend engineer based in Hamburg/Germany."
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Contact Mona Burger - frontend developer</title>
     <script
       src="https://kit.fontawesome.com/ddc3ee268a.js"
       crossorigin="anonymous"
     ></script>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="images/ySjA-logo.png"
+            class="logo d-none d-md-block"
+            alt="Mona Logo"
+          />
+          <img
+            src="images/logo-small.png"
+            class="logo d-block d-md-none"
+            alt="Mona Logo"
+          />
+        </a>
+        <ul>
+          <li><a href="/" title="Homepage">Home</a></li>
+          <li><a href="/about.html" title="About Mona">About</a></li>
+          <li><a href="/work.html" title="Mona's work">Work</a></li>
+          <li class="active">
+            <a href="/contact.html" title="Contact Mona">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="content">
         <h1 class="mb-5">Let's get in touch!</h1>
@@ -48,6 +76,64 @@
           >
         </p>
       </div>
+
+      <footer>
+        <div
+          class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+        >
+          <div>
+            <h3>Work inquiry</h3>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a
+              href="/contact.html"
+              class="btn btn-branding mt-3"
+              title="Contact Mona"
+              >Contact me</a
+            >
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a
+            href="mailto:mona@software-lab.de"
+            class="email-link"
+            title="Email Mona"
+          >
+            mona@software-lab.de
+          </a>
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a
+            href="https://www.instagram.com/mona"
+            target="_blank"
+            title="Github Profile"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a
+            href="https://github.com/MonaBurger"
+            target="_blank"
+            title="Instagram Profile"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            href="https://www.twitter.com/mona"
+            target="_blank"
+            title="Twitter Profile"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </div>
+        <p class="text-center mt-5">
+          ✌️ This project was coded by Mona Burger and is
+          <a
+            href="https://github.com/MonaBurger/portfolio-project"
+            target="_blank"
+          >
+            open-sourced.
+          </a>
+        </p>
+      </footer>
     </div>
   </body>
 </html>
